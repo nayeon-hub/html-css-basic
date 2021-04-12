@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  color: #212529;
+}
+span {
+  color: #fff;
+  background-color: #0066ff;
+}

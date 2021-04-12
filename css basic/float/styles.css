@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+}
+
+.parent {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #eff2f7;
+}
+
+.child {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+  float: left;
+}
+
+.red {
+  background-color: #ff4949;
+  height: 200px;
+  width: 200px;
+}
+.yellow {
+  background-color: #ffc82c;
+  height: 200px;
+  width: 200px;
+}
+.blue {
+  height: 200px;
+  width: 200px;
+  background-color: #0066ff;
+}
+.parent::after {
+  content: "";
+  display: block;
+  clear: left;
+}

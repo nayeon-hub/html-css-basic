@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  box-sizing: border-box;
+  width: 270px;
+  height: 270px;
+  padding: 40px 0px 0px 50px;
+  background-color: #2982f8;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}

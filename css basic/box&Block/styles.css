@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  background-color: moccasin;
+}
+.child {
+  height: 40px;
+  width: 400px;
+  background-color: orange;
+  margin-bottom: 100px;
+}
+.other {
+  height: 40px;
+  width: 250px;
+  background-color: orangered;
+}
