@@ -47,9 +47,8 @@ h1 {
   border: 2px solid white;
 }
 
-.card-user,
-.card h1,
-.user-status {
+/* .card-user, */
+.card h1 {
   float: left;
 }
 
