@@ -15,10 +15,10 @@ body {
   background-color: white;
   max-width: 560px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  /* flex-direction: row; default값이라 생략가능*/
+  /* flex-wrap: nowrap; default값*/
   justify-content: flex-start;
-  align-items: flex-start;
+  /* align-items: flex-start; default값*/
 }
 
 .mailItem-photo {
