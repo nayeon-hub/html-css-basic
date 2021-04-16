@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #ffc82c;
+}
+
+.banner a {
+  width: 100%;
+  height: 64px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #1f2d3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing {
+  padding: 0px 15px;
+  background-image: url("./assets/img-bg.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: 40% 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.landing-title {
+  font-size: 32px;
+  color: #ffff;
+  line-height: 1.25;
+  font-weight: 900;
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+.landing-title strong {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  display: block;
+}
+
+.landing-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ffff;
+  padding: 14px 37px;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 736px) {
+  .banner {
+    bottom: auto;
+    top: 0;
+  }
+
+  .banner-title a {
+    height: 80px;
+    line-height: 1.333333;
+  }
+
+  .landing {
+    align-items: center;
+  }
+
+  .landing-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 32px;
+    line-height: 1.25;
+  }
+
+  .landing-link {
+    font-size: 18px;
+    padding: 16px 39px;
+  }
+} ;
