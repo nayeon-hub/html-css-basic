@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.modal::before {
+  content: url(" https://wac-cdn.atlassian.com/dam/jcr:bc1f15f9-3b2e-4c30-9313-0ebd6175f18c/File%20Cabinet@2x.png?cdnVersion=676");
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 87px;
+  height: 87px;
+}

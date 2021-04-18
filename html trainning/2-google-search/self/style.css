@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.google-search {
+  background-color: #fff;
+  width: 724px;
+  padding: 23px;
+}
+
+.google-search h1 {
+  font-size: 0px;
+  margin-bottom: 6px;
+}
+
+.google-search h1 a {
+  font-size: 23px;
+  font-weight: 400;
+  color: #1b0eab;
+}
+
+.google-search a {
+  text-decoration: none;
+  color: #006621;
+  font-size: 18px;
+}
+
+.google-search p {
+  color: #616161;
+  margin-top: 6px;
+  line-height: 1.6;
+}
