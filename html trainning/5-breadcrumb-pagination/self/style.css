@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #d4d8dd;
+}
+
+a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.pagination {
+  border-radius: 2px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.pagination a {
+  display: block;
+  padding: 10px 12px;
+  border: 1px solid #d4d8dd;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.pagination > a {
+  color: #d4d8dd;
+}
